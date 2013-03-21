@@ -24,6 +24,7 @@
 		620C981616FB51DA00D95E90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620C97EE16FB51DA00D95E90 /* Foundation.framework */; };
 		620C981E16FB51DA00D95E90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 620C981C16FB51DA00D95E90 /* InfoPlist.strings */; };
 		620C982116FB51DA00D95E90 /* PlaceholderImageCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C982016FB51DA00D95E90 /* PlaceholderImageCategoryTests.m */; };
+		620C982C16FB51F400D95E90 /* UIImage+CreateThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 620C982B16FB51F400D95E90 /* UIImage+CreateThumbnail.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		620C981D16FB51DA00D95E90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		620C981F16FB51DA00D95E90 /* PlaceholderImageCategoryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceholderImageCategoryTests.h; sourceTree = "<group>"; };
 		620C982016FB51DA00D95E90 /* PlaceholderImageCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceholderImageCategoryTests.m; sourceTree = "<group>"; };
+		620C982A16FB51F400D95E90 /* UIImage+CreateThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CreateThumbnail.h"; sourceTree = "<group>"; };
+		620C982B16FB51F400D95E90 /* UIImage+CreateThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CreateThumbnail.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				620C980716FB51DA00D95E90 /* MainStoryboard_iPad.storyboard */,
 				620C980A16FB51DA00D95E90 /* MLCViewController.h */,
 				620C980B16FB51DA00D95E90 /* MLCViewController.m */,
+				620C982A16FB51F400D95E90 /* UIImage+CreateThumbnail.h */,
+				620C982B16FB51F400D95E90 /* UIImage+CreateThumbnail.m */,
 				620C97F316FB51DA00D95E90 /* Supporting Files */,
 			);
 			path = PlaceholderImageCategory;
@@ -278,6 +283,7 @@
 				620C97F916FB51DA00D95E90 /* main.m in Sources */,
 				620C97FD16FB51DA00D95E90 /* MLCAppDelegate.m in Sources */,
 				620C980C16FB51DA00D95E90 /* MLCViewController.m in Sources */,
+				620C982C16FB51F400D95E90 /* UIImage+CreateThumbnail.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
